@@ -1,0 +1,54 @@
+/*soy un comentario*/
+/*
+selector{
+    propiedad:valor;
+    propiedad:valor;
+    propiedad:valor;
+}
+*/
+
+body{
+    /*color de fondo*/
+    background-color: rgb(228, 201, 171);
+    /*cambio de tipografia*/
+    font-family: 'Caprasimo', cursive;
+    .titulo{font-family: 'Caprasimo', cursive;
+        font-family: 'Fasthand', cursive;
+    }
+}
+
+/*cambiar tamaño de imagenes*/
+img{
+    width: 300px; /*ancho*/
+    height: ; /*alto*/
+    align-items:center;
+    
+
+}
+
+/*color de texto*/
+p{color: rgb(255, 60, 0);
+}   
+
+/*al editar una clase tiene que ir un punto antes*/
+.p-terriers{
+color: darkblue;
+
+}
+
+
+.menu{
+    /*div flexible para moverse con los elementos dentro de si*/
+    display: flex;
+    /*en columna*/
+    flex-direction: column;
+    /*alinear items centrados*/
+    align-items: center;
+}
+a{
+    color: black;
+    /*linea debajo del texto de la ancla*/
+    text-decoration: none;
+    font-size: 30px;
+
+}
